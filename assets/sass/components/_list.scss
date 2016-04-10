@@ -1,0 +1,35 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Identity by HTML5 UP
+/// html5up.net | @n33co
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* List */
+
+	ol {
+		list-style: decimal;
+		margin: 0 0 _size(element-margin) 0;
+		padding-left: 1.25em;
+
+		li {
+			padding-left: 0.25em;
+		}
+	}
+
+	ul {
+		list-style: none;
+
+		li {
+			font-size: 1em;
+			line-height: 1em;
+            margin-bottom: 15px;
+            span.author {
+                font-size: 0.6em;
+            }
+		}
+    }
+
